@@ -93,43 +93,119 @@
           <div class="news_content">
             <el-row class="news_item">
               <el-col :span="18"><span style="font-size: 0.9rem">关于收看河北电视台新闻联播的通知</span></el-col>
-              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2020-09-03</span></el-col>
+              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2021-05-23</span></el-col>
+            </el-row>
+            <el-row class="news_item">
+              <el-col :span="18"><span style="font-size: 0.9rem">河北大学新闻传播学院招生简章</span></el-col>
+              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2021-05-22</span></el-col>
+            </el-row>
+            <el-row class="news_item">
+              <el-col :span="18"><span style="font-size: 0.9rem">我院编辑出版专业师生赴京进行专业参观学习</span></el-col>
+              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2020-05-21</span></el-col>
+            </el-row>
+            <el-row class="news_item">
+              <el-col :span="18"><span style="font-size: 0.9rem">关于举办保定市“高校联盟”之河</span></el-col>
+              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2021-05-20</span></el-col>
+            </el-row>
+            <el-row class="news_item">
+              <el-col :span="18"><span style="font-size: 0.9rem">新闻传播学院2021年博士研究生招生考核成绩公示</span></el-col>
+              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2021-05-17</span></el-col>
+            </el-row>
+            <el-row class="news_item">
+              <el-col :span="18"><span style="font-size: 0.9rem">我院教职工女子排球队在河北大学2021年“校庆杯”教职工排球比赛中获得季军</span></el-col>
+              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2021-05-17</span></el-col>
+            </el-row>
+            <el-row class="news_item">
+              <el-col :span="18"><span style="font-size: 0.9rem">城市注意度报告专家咨询暨学术讲座在河北大学新闻传播学院举办</span></el-col>
+              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2021-05-16</span></el-col>
             </el-row>
             <el-row class="news_item">
               <el-col :span="18"><span style="font-size: 0.9rem">关于收看河北电视台新闻联播的通知</span></el-col>
-              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2020-09-03</span></el-col>
-            </el-row>
-            <el-row class="news_item">
-              <el-col :span="18"><span style="font-size: 0.9rem">关于收看河北电视台新闻联播的通知</span></el-col>
-              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2020-09-03</span></el-col>
-            </el-row>
-            <el-row class="news_item">
-              <el-col :span="18"><span style="font-size: 0.9rem">关于收看河北电视台新闻联播的通知</span></el-col>
-              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2020-09-03</span></el-col>
-            </el-row>
-            <el-row class="news_item">
-              <el-col :span="18"><span style="font-size: 0.9rem">关于收看河北电视台新闻联播的通知</span></el-col>
-              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2020-09-03</span></el-col>
-            </el-row>
-            <el-row class="news_item">
-              <el-col :span="18"><span style="font-size: 0.9rem">关于收看河北电视台新闻联播的通知</span></el-col>
-              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2020-09-03</span></el-col>
-            </el-row>
-            <el-row class="news_item">
-              <el-col :span="18"><span style="font-size: 0.9rem">关于收看河北电视台新闻联播的通知</span></el-col>
-              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2020-09-03</span></el-col>
-            </el-row>
-            <el-row class="news_item">
-              <el-col :span="18"><span style="font-size: 0.9rem">关于收看河北电视台新闻联播的通知</span></el-col>
-              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2020-09-03</span></el-col>
+              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2021-05-14</span></el-col>
             </el-row>
           </div>
         </div>
         <div class="two_news_con">
-
+          <div class="news_title_con">
+            <div class="title_fact_con">
+              <span class="news_title_span">教务通知</span>
+            </div>
+          </div>
+          <div class="news_content">
+            <el-row class="news_item">
+              <el-col :span="18"><span style="font-size: 0.9rem">新闻传播学院关于2020级校内转专业学生考核成绩的公示</span></el-col>
+              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2021-04-19</span></el-col>
+            </el-row>
+            <el-row class="news_item">
+              <el-col :span="18"><span style="font-size: 0.9rem">2020级学生转专业新闻传播学院选拔考核安排</span></el-col>
+              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2021-04-07</span></el-col>
+            </el-row>
+            <el-row class="news_item">
+              <el-col :span="18"><span style="font-size: 0.9rem">新闻传播学院第九届青年教师课堂教学大赛结果公示</span></el-col>
+              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2021-01-01</span></el-col>
+            </el-row>
+            <el-row class="news_item">
+              <el-col :span="18"><span style="font-size: 0.9rem">新闻传播学院成功举办青年教师课堂大赛</span></el-col>
+              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2020-12-21</span></el-col>
+            </el-row>
+            <el-row class="news_item">
+              <el-col :span="18"><span style="font-size: 0.9rem">2015级硕士研究生学术沙龙 第十一场纪要</span></el-col>
+              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2016-01-18</span></el-col>
+            </el-row>
+            <el-row class="news_item">
+              <el-col :span="18"><span style="font-size: 0.9rem">新闻传播学院2016年研究生复试工作细则</span></el-col>
+              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2016-03-25</span></el-col>
+            </el-row>
+            <el-row class="news_item">
+              <el-col :span="18"><span style="font-size: 0.9rem">河北大学新闻传播学院2019硕博连读研究生选拔细则</span></el-col>
+              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2018-10-13</span></el-col>
+            </el-row>
+            <el-row class="news_item">
+              <el-col :span="18"><span style="font-size: 0.9rem">河北大学新闻传播学院2018年博士研究生招生复试实施细则2018-03-06</span></el-col>
+              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2018-10-13</span></el-col>
+            </el-row>
+          </div>
         </div>
         <div class="three_news_con">
-
+          <div class="news_title_con">
+            <div class="title_fact_con">
+              <span class="news_title_span">学生工作</span>
+            </div>
+          </div>
+          <div class="news_content">
+            <el-row class="news_item">
+              <el-col :span="18"><span style="font-size: 0.9rem">新闻传播学院青马班开班仪式和第一讲顺利举行</span></el-col>
+              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2017-11-21</span></el-col>
+            </el-row>
+            <el-row class="news_item">
+              <el-col :span="18"><span style="font-size: 0.9rem">嘉闻班素质拓展活动顺利进行</span></el-col>
+              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2017-11-21</span></el-col>
+            </el-row>
+            <el-row class="news_item">
+              <el-col :span="18"><span style="font-size: 0.9rem">第六期发展对象人选第一次党课</span></el-col>
+              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2017-05-20</span></el-col>
+            </el-row>
+            <el-row class="news_item">
+              <el-col :span="18"><span style="font-size: 0.9rem">我院召开团委新老书记交接会议</span></el-col>
+              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2016-12-25</span></el-col>
+            </el-row>
+            <el-row class="news_item">
+              <el-col :span="18"><span style="font-size: 0.9rem">新闻传播学院2016-2017届主席团竞选结果公示</span></el-col>
+              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2016-09-08</span></el-col>
+            </el-row>
+            <el-row class="news_item">
+              <el-col :span="18"><span style="font-size: 0.9rem">我院召开2017级新生学分制学籍管理培训会</span></el-col>
+              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2017-09-18</span></el-col>
+            </el-row>
+            <el-row class="news_item">
+              <el-col :span="18"><span style="font-size: 0.9rem">河北中天德尚文化传媒有限公司招聘信息</span></el-col>
+              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2015-04-16</span></el-col>
+            </el-row>
+            <el-row class="news_item">
+              <el-col :span="18"><span style="font-size: 0.9rem">新闻传播学院3+2 篮球赛决赛精彩连连</span></el-col>
+              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2020-11-07</span></el-col>
+            </el-row>
+          </div>
         </div>
       </div>
     </div>
@@ -596,19 +672,19 @@ export default {
   display: flex;
 }
 .one_news_con {
-  width: 28%;
+  width: 33.3%;
   height: 100%;
   /*background-color: #6bbc72;*/
 }
 .two_news_con {
-  width: 44%;
+  width: 33.3%;
   height: 100%;
-  background-color: #2767c5;
+  /*background-color: #2767c5;*/
 }
 .three_news_con {
-  width: 28%;
+  width: 33.3%;
   height: 100%;
-  background-color: #5ecab4;
+  /*background-color: #5ecab4;*/
 }
 .news_title_con {
   height: 14%;
@@ -648,5 +724,13 @@ export default {
   margin-top: 1%;
   width: 100%;
   height: 10%;
+  /*white-space: nowrap;*/
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.news_item span:hover {
+  cursor: pointer;
+  color: red;
+  border-bottom: 1px solid red;
 }
 </style>
