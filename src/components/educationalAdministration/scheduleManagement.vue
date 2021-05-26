@@ -187,7 +187,7 @@
 <!--            </el-submenu>-->
             <el-menu-item index="/scheduleManagement/test1">
               <i class="el-icon-menu"></i>
-              <span slot="title">学期课表总览</span>
+              <span slot="title">学期课程总览</span>
             </el-menu-item>
             <el-menu-item index="/scheduleManagement/test2">
               <i class="el-icon-menu"></i>
@@ -213,8 +213,9 @@
         </div>
       </div>
       <div class="right_content_container">
-        <div style="width: 100%;height: 100%;">
+        <div style="width: 100%;height: auto;">
           <router-view></router-view>
+          <br style="clear:both;"/>
         </div>
       </div>
     </div>
@@ -260,7 +261,7 @@ export default {
   position: relative;
 }
 .head_title {
-  width: 10%;
+  width: 15%;
   height: 40%;
   position: absolute;
   /*background-color: #6bbc72;*/

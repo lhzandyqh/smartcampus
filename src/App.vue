@@ -34,7 +34,7 @@ body {
 html,body,#app{
   height: 100%;
 }
-::-webkit-scrollbar {
-  display: none; /* Chrome Safari */
-}
+/*::-webkit-scrollbar {*/
+/*  display: none; !* Chrome Safari *!*/
+/*}*/
 </style>
