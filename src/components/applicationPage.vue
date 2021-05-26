@@ -25,7 +25,7 @@
     </div>
     <div class="nav_con">
       <div class="fun_con">
-        <div class="fun_item" style="background-color: #0b71c6">
+        <div class="fun_item" @click="goHome">
           <div class="fun_content">
             <div class="fun_icon">
               <img src="../assets/icontwo/shouye.png">
@@ -45,7 +45,7 @@
             </div>
           </div>
         </div>
-        <div class="fun_item" @click="gotoAppPage">
+        <div class="fun_item" style="background-color: #0b71c6">
           <div class="fun_content">
             <div class="fun_icon">
               <img src="../assets/icontwo/yinyong.png">
@@ -77,60 +77,204 @@
         </div>
       </div>
     </div>
-    <div class="pic_container">
-      <div class="main_pic">
-        <img src="../assets/main_bg.png">
+    <div class="application_con" style="margin-top: 9%">
+      <div class="application_title">
+        <div class="first_tit">
+          <span>教务教学管理系统</span>
+        </div>
+        <div class="second_tit">
+          <span>Teaching administration teaching management</span>
+        </div>
+      </div>
+      <div class="app_all_con">
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/icon/xueji2.png">
+          </div>
+          <div class="fun_title_two">
+            <span>学籍管理</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/icon/peiyang2.png">
+          </div>
+          <div class="fun_title_two">
+            <span>培养方案</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/icon/guihua2.png">
+          </div>
+          <div class="fun_title_two">
+            <span>学生个人规划</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/icon/jiaoxue2.png">
+          </div>
+          <div class="fun_title_two">
+            <span>教学任务管理</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/icon/kaishe.png">
+          </div>
+          <div class="fun_title_two">
+            <span>开设新课程</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/icon/paike2.png">
+          </div>
+          <div class="fun_title_two">
+            <span>校园排课</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/icon/xuanke.png">
+          </div>
+          <div class="fun_title_two">
+            <span>学生选课</span>
+          </div>
+        </div>
+        <div class="new_icon_con" @click="gotoKebiao">
+          <div class="fun_icon_two">
+            <img src="../assets/icon/kebiao.png">
+          </div>
+          <div class="fun_title_two">
+            <span>课表管理</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/icon/guanlian.png">
+          </div>
+          <div class="fun_title_two">
+            <span>设置课程关联</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/icon/pingjiao.png">
+          </div>
+          <div class="fun_title_two">
+            <span>评教评学</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/icon/chengji.png">
+          </div>
+          <div class="fun_title_two">
+            <span>成绩管理</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/icon/shangchuan.png">
+          </div>
+          <div class="fun_title_two">
+            <span>文件上传</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/icon/xiazai.png">
+          </div>
+          <div class="fun_title_two">
+            <span>文件下载</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/icon/tiaojian.png">
+          </div>
+          <div class="fun_title_two">
+            <span>毕业条件设定</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/icon/shenqing.png">
+          </div>
+          <div class="fun_title_two">
+            <span>毕业申请管理</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/icon/zhuangtai.png">
+          </div>
+          <div class="fun_title_two">
+            <span>学生状态跟踪</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/icon/mima.png">
+          </div>
+          <div class="fun_title_two">
+            <span>密码管理</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/icon/quanxian.png">
+          </div>
+          <div class="fun_title_two">
+            <span>用户权限管理</span>
+          </div>
+        </div>
+        <div class="hidden_con">
+
+        </div>
+        <div class="hidden_con">
+
+        </div>
       </div>
     </div>
-    <div class="news_container">
-      <div class="main_news_con">
-        <div class="one_news_con">
-          <div class="news_title_con">
-            <div class="title_fact_con">
-              <span class="news_title_span">校园要闻</span>
-            </div>
-          </div>
-          <div class="news_content">
-            <el-row class="news_item">
-              <el-col :span="18"><span style="font-size: 0.9rem">关于收看河北电视台新闻联播的通知</span></el-col>
-              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2020-09-03</span></el-col>
-            </el-row>
-            <el-row class="news_item">
-              <el-col :span="18"><span style="font-size: 0.9rem">关于收看河北电视台新闻联播的通知</span></el-col>
-              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2020-09-03</span></el-col>
-            </el-row>
-            <el-row class="news_item">
-              <el-col :span="18"><span style="font-size: 0.9rem">关于收看河北电视台新闻联播的通知</span></el-col>
-              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2020-09-03</span></el-col>
-            </el-row>
-            <el-row class="news_item">
-              <el-col :span="18"><span style="font-size: 0.9rem">关于收看河北电视台新闻联播的通知</span></el-col>
-              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2020-09-03</span></el-col>
-            </el-row>
-            <el-row class="news_item">
-              <el-col :span="18"><span style="font-size: 0.9rem">关于收看河北电视台新闻联播的通知</span></el-col>
-              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2020-09-03</span></el-col>
-            </el-row>
-            <el-row class="news_item">
-              <el-col :span="18"><span style="font-size: 0.9rem">关于收看河北电视台新闻联播的通知</span></el-col>
-              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2020-09-03</span></el-col>
-            </el-row>
-            <el-row class="news_item">
-              <el-col :span="18"><span style="font-size: 0.9rem">关于收看河北电视台新闻联播的通知</span></el-col>
-              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2020-09-03</span></el-col>
-            </el-row>
-            <el-row class="news_item">
-              <el-col :span="18"><span style="font-size: 0.9rem">关于收看河北电视台新闻联播的通知</span></el-col>
-              <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2020-09-03</span></el-col>
-            </el-row>
-          </div>
+    <div class="application_con top_control">
+      <div class="application_title">
+        <div class="first_tit">
+          <span>教务教学管理系统</span>
         </div>
-        <div class="two_news_con">
+        <div class="second_tit">
+          <span>Teaching administration teaching management</span>
+        </div>
+      </div>
+      <div class="app_all_con">
+      </div>
+    </div>
+    <div class="application_con top_control">
+      <div class="application_title">
+        <div class="first_tit">
+          <span>教务教学管理系统</span>
+        </div>
+        <div class="second_tit">
+          <span>Teaching administration teaching management</span>
+        </div>
+      </div>
+      <div class="app_all_con">
 
+      </div>
+    </div>
+    <div class="application_con top_control">
+      <div class="application_title">
+        <div class="first_tit">
+          <span>教务教学管理系统</span>
         </div>
-        <div class="three_news_con">
+        <div class="second_tit">
+          <span>Teaching administration teaching management</span>
+        </div>
+      </div>
+      <div class="app_all_con">
 
-        </div>
       </div>
     </div>
     <el-dialog
@@ -173,9 +317,9 @@
 <!--    <el-button type="primary" @click="dialogVisible = false">确 定</el-button>-->
   </span>
     </el-dialog>
-<!--    <div class="copyright">-->
-<!--      <span>版权所有© Copyright 2020-2021 中科智禾</span>-->
-<!--    </div>-->
+    <div class="copyright">
+      <span>版权所有© Copyright 2020-2021 中科智禾</span>
+    </div>
   </div>
 </template>
 
@@ -241,8 +385,8 @@ export default {
         this.dialogVisible = false
       }
     },
-    gotoAppPage: function () {
-      this.$router.push('/applicationPage')
+    goHome: function () {
+      this.$router.push('/')
     },
     gotoKebiao: function () {
       this.$router.push('/scheduleManagement')
@@ -566,87 +710,6 @@ export default {
   color: #707476;
   /*position: absolute;*/
   /*bottom: -29%;*/
-  margin-top: 40%;
   font-size: 0.8rem;
-}
-.pic_container {
-  width: 100%;
-  height: 65%;
-  /*background-color: pink;*/
-}
-.main_pic {
-  width: 90%;
-  height: 100%;
-  background-color: white;
-  margin-left: 5%;
-}
-.main_pic img {
-  width: 100%;
-  height: 100%;
-}
-.news_container {
-  width: 100%;
-  height: 40%;
-}
-.main_news_con {
-  width: 90%;
-  height: 100%;
-  margin-left: 5%;
-  /*background-color: hotpink;*/
-  display: flex;
-}
-.one_news_con {
-  width: 28%;
-  height: 100%;
-  /*background-color: #6bbc72;*/
-}
-.two_news_con {
-  width: 44%;
-  height: 100%;
-  background-color: #2767c5;
-}
-.three_news_con {
-  width: 28%;
-  height: 100%;
-  background-color: #5ecab4;
-}
-.news_title_con {
-  height: 14%;
-  width: 90%;
-  /*background-color: white;*/
-  margin-left: 5%;
-  border-bottom: #109ee5 1px solid;
-  position: relative;
-}
-.title_fact_con {
-  width: 100%;
-  height: 70%;
-  /*background-color: #2767c5;*/
-  position: absolute;
-  top: 15%;
-  border-left: #0b71c6 6px solid;
-}
-.news_title_span {
-  width: 100%;
-  height: 100%;
-  color: #154293;
-  font-size: 1rem;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  margin-left: 5%;
-  /*justify-content: center;*/
-}
-.news_content {
-  width: 90%;
-  /*background-color: white;*/
-  margin-left: 5%;
-  height: 86%;
-  /*background-color: #5ecab4;*/
-}
-.news_item {
-  margin-top: 1%;
-  width: 100%;
-  height: 10%;
 }
 </style>
