@@ -242,39 +242,475 @@
     <div class="application_con top_control">
       <div class="application_title">
         <div class="first_tit">
-          <span>教务教学管理系统</span>
+          <span>科研系统</span>
         </div>
         <div class="second_tit">
-          <span>Teaching administration teaching management</span>
+          <span>The scientific research management</span>
         </div>
       </div>
       <div class="app_all_con">
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/scientific_icon/zhineng.png">
+          </div>
+          <div class="fun_title_two">
+            <span>智能分析</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/scientific_icon/xinxi.png">
+          </div>
+          <div class="fun_title_two">
+            <span>信息采集</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/scientific_icon/lixiang.png">
+          </div>
+          <div class="fun_title_two">
+            <span>项目立项</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/scientific_icon/xiangmu.png">
+          </div>
+          <div class="fun_title_two">
+            <span>项目管理</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/scientific_icon/yusuan.png">
+          </div>
+          <div class="fun_title_two">
+            <span>预算管理</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/scientific_icon/zhinengfuwu.png">
+          </div>
+          <div class="fun_title_two">
+            <span>智能服务</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/scientific_icon/pingshen.png">
+          </div>
+          <div class="fun_title_two">
+            <span>科研评审</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/scientific_icon/quanxian.png">
+          </div>
+          <div class="fun_title_two">
+            <span>权限管理</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/scientific_icon/jifen.png">
+          </div>
+          <div class="fun_title_two">
+            <span>积分配置</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/scientific_icon/gexing.png">
+          </div>
+          <div class="fun_title_two">
+            <span>个性配置</span>
+          </div>
+        </div>
+        <div class="hidden_con">
+
+        </div><div class="hidden_con">
+
+      </div>
       </div>
     </div>
     <div class="application_con top_control">
       <div class="application_title">
         <div class="first_tit">
-          <span>教务教学管理系统</span>
+          <span>人事系统</span>
         </div>
         <div class="second_tit">
-          <span>Teaching administration teaching management</span>
+          <span>The personal affairs management</span>
         </div>
       </div>
       <div class="app_all_con">
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/personal_icon/fenxi.png">
+          </div>
+          <div class="fun_title_two">
+            <span>诊改分析</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/personal_icon/geren.png">
+          </div>
+          <div class="fun_title_two">
+            <span>个人信息</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/personal_icon/tijiao.png">
+          </div>
+          <div class="fun_title_two">
+            <span>任务提交</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/personal_icon/shenhe.png">
+          </div>
+          <div class="fun_title_two">
+            <span>审核历史</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/personal_icon/gongzi.png">
+          </div>
+          <div class="fun_title_two">
+            <span>工资信息</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/personal_icon/zhineng.png">
+          </div>
+          <div class="fun_title_two">
+            <span>智能服务</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/personal_icon/renwu.png">
+          </div>
+          <div class="fun_title_two">
+            <span>诊改任务</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/personal_icon/guanli.png">
+          </div>
+          <div class="fun_title_two">
+            <span>人员管理</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/personal_icon/shenpi.png">
+          </div>
+          <div class="fun_title_two">
+            <span>专项审批</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/personal_icon/chaxun.png">
+          </div>
+          <div class="fun_title_two">
+            <span>智能查询</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/personal_icon/zuzhi.png">
+          </div>
+          <div class="fun_title_two">
+            <span>组织结构</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/personal_icon/hetong.png">
+          </div>
+          <div class="fun_title_two">
+            <span>合同管理</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/personal_icon/quanxian.png">
+          </div>
+          <div class="fun_title_two">
+            <span>权限管理</span>
+          </div>
+        </div>
+        <div class="hidden_con">
+
+        </div>
+        <div class="hidden_con">
+
+        </div>
 
       </div>
     </div>
     <div class="application_con top_control">
       <div class="application_title">
         <div class="first_tit">
-          <span>教务教学管理系统</span>
+          <span>学生发展平台</span>
         </div>
         <div class="second_tit">
-          <span>Teaching administration teaching management</span>
+          <span>The student Development Platform</span>
         </div>
       </div>
       <div class="app_all_con">
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/student_icon/guihua.png">
+          </div>
+          <div class="fun_title_two">
+            <span>学涯规划</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/student_icon/xueji.png">
+          </div>
+          <div class="fun_title_two">
+            <span>学籍管理</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/student_icon/kecheng.png">
+          </div>
+          <div class="fun_title_two">
+            <span>我的课程</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/student_icon/sekecheng.png">
+          </div>
+          <div class="fun_title_two">
+            <span>第二课程</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/student_icon/qingjia.png">
+          </div>
+          <div class="fun_title_two">
+            <span>请假管理</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/student_icon/jiangzhu.png">
+          </div>
+          <div class="fun_title_two">
+            <span>校园奖助</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/student_icon/xiaoyuan.png">
+          </div>
+          <div class="fun_title_two">
+            <span>校园生活</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/student_icon/biye.png">
+          </div>
+          <div class="fun_title_two">
+            <span>毕业反馈</span>
+          </div>
+        </div>
+        <div class="hidden_con">
 
+        </div>
+        <div class="hidden_con">
+
+        </div>
+      </div>
+    </div>
+    <div class="application_con top_control">
+      <div class="application_title">
+        <div class="first_tit">
+          <span>资产系统</span>
+        </div>
+        <div class="second_tit">
+          <span>The assets management</span>
+        </div>
+      </div>
+      <div class="app_all_con">
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/assets_icon/kucun.png">
+          </div>
+          <div class="fun_title_two">
+            <span>库存管理</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/assets_icon/kufang.png">
+          </div>
+          <div class="fun_title_two">
+            <span>库房管理</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/assets_icon/pici.png">
+          </div>
+          <div class="fun_title_two">
+            <span>批次管理</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/assets_icon/zichan.png">
+          </div>
+          <div class="fun_title_two">
+            <span>资产管理</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/assets_icon/shoufa.png">
+          </div>
+          <div class="fun_title_two">
+            <span>首发存库</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/assets_icon/fenlei.png">
+          </div>
+          <div class="fun_title_two">
+            <span>分类管理</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/assets_icon/bumen.png">
+          </div>
+          <div class="fun_title_two">
+            <span>部门管理</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/assets_icon/yusuan.png">
+          </div>
+          <div class="fun_title_two">
+            <span>预算管理</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/assets_icon/baofei.png">
+          </div>
+          <div class="fun_title_two">
+            <span>报废查询</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/assets_icon/gouzhuwu.png">
+          </div>
+          <div class="fun_title_two">
+            <span>构筑物管理</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/assets_icon/zichanpandian.png">
+          </div>
+          <div class="fun_title_two">
+            <span>资产盘点</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/assets_icon/yonghu.png">
+          </div>
+          <div class="fun_title_two">
+            <span>用户信息</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/assets_icon/jieyong.png">
+          </div>
+          <div class="fun_title_two">
+            <span>借用资产</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/assets_icon/tuihuan.png">
+          </div>
+          <div class="fun_title_two">
+            <span>退换申请</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/assets_icon/yusuanshenqing.png">
+          </div>
+          <div class="fun_title_two">
+            <span>预算申请</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/assets_icon/liuzhuan.png">
+          </div>
+          <div class="fun_title_two">
+            <span>流转管理</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/assets_icon/tuihuanguanli.png">
+          </div>
+          <div class="fun_title_two">
+            <span>退换管理</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/assets_icon/liucheng.png">
+          </div>
+          <div class="fun_title_two">
+            <span>流程配置</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/assets_icon/juese.png">
+          </div>
+          <div class="fun_title_two">
+            <span>角色配置</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/assets_icon/quanxian.png">
+          </div>
+          <div class="fun_title_two">
+            <span>权限配置</span>
+          </div>
+        </div>
       </div>
     </div>
     <el-dialog
