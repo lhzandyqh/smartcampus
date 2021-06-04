@@ -35,7 +35,7 @@
             </div>
           </div>
         </div>
-        <div class="fun_item">
+        <div class="fun_item" @click="gotoOffice">
           <div class="fun_content">
             <div class="fun_icon">
               <img src="../assets/icontwo/banshi.png">
@@ -55,7 +55,7 @@
             </div>
           </div>
         </div>
-        <div class="fun_item">
+        <div class="fun_item" @click="gotoBigScreen">
           <div class="fun_content">
             <div class="fun_icon">
               <img src="../assets/icontwo/tongji.png">
@@ -339,10 +339,10 @@
     <div class="application_con top_control">
       <div class="application_title">
         <div class="first_tit">
-          <span>人事系统</span>
+          <span>教师发展平台</span>
         </div>
         <div class="second_tit">
-          <span>The personal affairs management</span>
+          <span>The teacher Development Platform</span>
         </div>
       </div>
       <div class="app_all_con">
@@ -824,8 +824,27 @@ export default {
     goHome: function () {
       this.$router.push('/')
     },
+    gotoAppPage: function () {
+      this.$router.push('/applicationPage')
+    },
+    gotoOffice: function () {
+      this.$router.push('/officeHall')
+    },
+    gotoPersonalCenter: function () {
+      this.$router.push('/personalCenter')
+    },
     gotoKebiao: function () {
+      // if (this.loginFlag) {
+      //   this.$message({
+      //     message: '未登录 请登录后再试',
+      //     type: 'warning'
+      //   })
+      // } else {
+      // }
       this.$router.push('/scheduleManagement')
+    },
+    gotoBigScreen: function () {
+      window.open('https://zhongkeruitong.top/zgbigscreen-show3/#/dashboard')
     }
   }
 }

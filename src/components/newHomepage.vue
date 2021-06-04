@@ -35,7 +35,7 @@
             </div>
           </div>
         </div>
-        <div class="fun_item">
+        <div class="fun_item" @click="gotoOffice">
           <div class="fun_content">
             <div class="fun_icon">
               <img src="../assets/icontwo/banshi.png">
@@ -55,7 +55,7 @@
             </div>
           </div>
         </div>
-        <div class="fun_item">
+        <div class="fun_item" @click="gotoBigScreen">
           <div class="fun_content">
             <div class="fun_icon">
               <img src="../assets/icontwo/tongji.png">
@@ -65,7 +65,7 @@
             </div>
           </div>
         </div>
-        <div class="fun_item">
+        <div class="fun_item" @click="gotoPersonalCenter">
           <div class="fun_content">
             <div class="fun_icon">
               <img src="../assets/icontwo/geren.png">
@@ -79,7 +79,8 @@
     </div>
     <div class="pic_container">
       <div class="main_pic">
-        <img src="../assets/main_bg.png">
+<!--        <img src="../assets/main_bg.png">-->
+        <img src="../assets/school_bg.jpeg">
       </div>
     </div>
     <div class="news_container">
@@ -92,11 +93,11 @@
           </div>
           <div class="news_content">
             <el-row class="news_item">
-              <el-col :span="18"><span style="font-size: 0.9rem">关于收看河北电视台新闻联播的通知</span></el-col>
+              <el-col :span="18"><span style="font-size: 0.9rem">关于收看电视台新闻联播的通知</span></el-col>
               <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2021-05-23</span></el-col>
             </el-row>
             <el-row class="news_item">
-              <el-col :span="18"><span style="font-size: 0.9rem">河北大学新闻传播学院招生简章</span></el-col>
+              <el-col :span="18"><span style="font-size: 0.9rem">新闻传播学院招生简章</span></el-col>
               <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2021-05-22</span></el-col>
             </el-row>
             <el-row class="news_item">
@@ -104,7 +105,7 @@
               <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2020-05-21</span></el-col>
             </el-row>
             <el-row class="news_item">
-              <el-col :span="18"><span style="font-size: 0.9rem">关于举办保定市“高校联盟”之河</span></el-col>
+              <el-col :span="18"><span style="font-size: 0.9rem">关于举办“高校联盟”之河</span></el-col>
               <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2021-05-20</span></el-col>
             </el-row>
             <el-row class="news_item">
@@ -112,11 +113,11 @@
               <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2021-05-17</span></el-col>
             </el-row>
             <el-row class="news_item">
-              <el-col :span="18"><span style="font-size: 0.9rem">我院教职工女子排球队在河北大学2021年“校庆杯”教职工排球比赛中获得季军</span></el-col>
+              <el-col :span="18"><span style="font-size: 0.9rem">我院教职工女子排球队在2021年“校庆杯”获得冠军</span></el-col>
               <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2021-05-17</span></el-col>
             </el-row>
             <el-row class="news_item">
-              <el-col :span="18"><span style="font-size: 0.9rem">城市注意度报告专家咨询暨学术讲座在河北大学新闻传播学院举办</span></el-col>
+              <el-col :span="18"><span style="font-size: 0.9rem">城市注意度报告专家咨询暨学术讲座在河北大学新闻传播</span></el-col>
               <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2021-05-16</span></el-col>
             </el-row>
             <el-row class="news_item">
@@ -157,11 +158,11 @@
               <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2016-03-25</span></el-col>
             </el-row>
             <el-row class="news_item">
-              <el-col :span="18"><span style="font-size: 0.9rem">河北大学新闻传播学院2019硕博连读研究生选拔细则</span></el-col>
+              <el-col :span="18"><span style="font-size: 0.9rem">新闻传播学院2019硕博连读研究生选拔细则</span></el-col>
               <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2018-10-13</span></el-col>
             </el-row>
             <el-row class="news_item">
-              <el-col :span="18"><span style="font-size: 0.9rem">河北大学新闻传播学院2018年博士研究生招生复试实施细则2018-03-06</span></el-col>
+              <el-col :span="18"><span style="font-size: 0.9rem">新闻传播学院2018年博士研究生招生复试实施细则</span></el-col>
               <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2018-10-13</span></el-col>
             </el-row>
           </div>
@@ -198,7 +199,7 @@
               <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2017-09-18</span></el-col>
             </el-row>
             <el-row class="news_item">
-              <el-col :span="18"><span style="font-size: 0.9rem">河北中天德尚文化传媒有限公司招聘信息</span></el-col>
+              <el-col :span="18"><span style="font-size: 0.9rem">中天德尚文化传媒有限公司招聘信息</span></el-col>
               <el-col :span="6"><span style="font-size: 0.9rem;color: dimgrey">2015-04-16</span></el-col>
             </el-row>
             <el-row class="news_item">
@@ -207,6 +208,32 @@
             </el-row>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="link_container">
+      <div class="link_item" style="width: 8%">
+        <span class="link_span" style="font-weight: bold">友情链接：</span>
+      </div>
+      <div class="link_item">
+        <span class="link_span">教育部</span>
+      </div>
+      <div class="link_item">
+        <span class="link_span">工信部</span>
+      </div>
+      <div class="link_item">
+        <span class="link_span">中国科学院</span>
+      </div>
+      <div class="link_item">
+        <span class="link_span">中国科学院沈阳所</span>
+      </div>
+      <div class="link_item">
+        <span class="link_span">山东大学</span>
+      </div>
+      <div class="link_item">
+        <span class="link_span">中科智禾</span>
+      </div>
+      <div class="link_item">
+        <span class="link_span">大学生在线联盟</span>
       </div>
     </div>
     <el-dialog
@@ -249,9 +276,9 @@
 <!--    <el-button type="primary" @click="dialogVisible = false">确 定</el-button>-->
   </span>
     </el-dialog>
-<!--    <div class="copyright">-->
-<!--      <span>版权所有© Copyright 2020-2021 中科智禾</span>-->
-<!--    </div>-->
+    <div class="copyright">
+      <span>版权所有© Copyright 2020-2021 中科智禾</span>
+    </div>
   </div>
 </template>
 
@@ -322,6 +349,15 @@ export default {
     },
     gotoKebiao: function () {
       this.$router.push('/scheduleManagement')
+    },
+    gotoOffice: function () {
+      this.$router.push('/officeHall')
+    },
+    gotoPersonalCenter: function () {
+      this.$router.push('/personalCenter')
+    },
+    gotoBigScreen: function () {
+      window.open('https://zhongkeruitong.top/zgbigscreen-show3/#/dashboard')
     }
   }
 }
@@ -642,7 +678,7 @@ export default {
   color: #707476;
   /*position: absolute;*/
   /*bottom: -29%;*/
-  margin-top: 40%;
+  margin-top: 2%;
   font-size: 0.8rem;
 }
 .pic_container {
@@ -663,6 +699,7 @@ export default {
 .news_container {
   width: 100%;
   height: 40%;
+  margin-top: 1%;
 }
 .main_news_con {
   width: 90%;
@@ -730,7 +767,30 @@ export default {
 }
 .news_item span:hover {
   cursor: pointer;
-  color: red;
-  border-bottom: 1px solid red;
+  color:  #154293;
+  border-bottom: 1px solid  #154293;
+}
+.link_container {
+  width: 90%;
+  height: 4%;
+  margin-left: 5%;
+  background-color: #1b7ee2;
+  display: flex;
+}
+.link_item {
+  width: 12.5%;
+  height: 100%;
+  /*background-color: #6bbc72;*/
+}
+.link_span {
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 0.9rem;
+  /*font-weight: bold;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 </style>

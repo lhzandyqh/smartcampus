@@ -8,6 +8,10 @@ import scheduleManagement from '@/components/educationalAdministration/scheduleM
 import applicationPage from '@/components/applicationPage'
 import testConponent1 from '@/components/educationalAdministration/testConponent1'
 import testConponent2 from '@/components/educationalAdministration/testConponent2'
+import officeHall from '@/components/officeHall/index'
+import personalCenter from '@/components/personalCenter/index'
+import peopleHome from '@/components/officeHall/peopleHome'
+import serveCenter from '@/components/officeHall/serveCenter'
 
 Vue.use(Router)
 
@@ -29,6 +33,32 @@ export default new Router({
       //     component: scheduleManagement
       //   }
       // ]
+    },
+    {
+      path: '/officeHall',
+      name: 'officeHall',
+      component: officeHall,
+      children: [
+        {
+          path: '/peopleHome',
+          name: 'peopleHome',
+          component: peopleHome
+        },
+        {
+          path: '/serveCenter',
+          name: 'serveCenter',
+          component: serveCenter
+        },
+        {
+          path: '',
+          component: peopleHome
+        }
+      ]
+    },
+    {
+      path: '/personalCenter',
+      name: 'personalCenter',
+      component: personalCenter
     },
     // 课表管理
     {
