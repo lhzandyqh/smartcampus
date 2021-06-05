@@ -317,7 +317,7 @@ export default {
   width: 6%;
   height: 80%;
   /*background-color: white;*/
-  background-color: rgba(255,255,255);
+  background-color: rgb(255,255,255);
   border-radius: 5px;
   justify-content: space-evenly;
   /*margin: 30px auto;*/

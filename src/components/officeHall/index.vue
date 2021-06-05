@@ -65,7 +65,7 @@
             </div>
           </div>
         </div>
-        <div class="fun_item">
+        <div class="fun_item" @click="gotoPersonalCenter">
           <div class="fun_content">
             <div class="fun_icon">
               <img src="../../assets/icontwo/geren.png">
@@ -546,6 +546,7 @@ export default {
   margin-top: 9%;
   width: 90%;
   margin-left: 5%;
+  /*background-color: #5aaff5;*/
 }
 .office_con {
   width: 90%;

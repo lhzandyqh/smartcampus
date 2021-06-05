@@ -35,7 +35,7 @@
             </div>
           </div>
         </div>
-        <div class="fun_item">
+        <div class="fun_item" @click="gotoOffice">
           <div class="fun_content">
             <div class="fun_icon">
               <img src="../../assets/icontwo/banshi.png">
@@ -45,7 +45,7 @@
             </div>
           </div>
         </div>
-        <div class="fun_item">
+        <div class="fun_item" @click="gotoAppPage">
           <div class="fun_content">
             <div class="fun_icon">
               <img src="../../assets/icontwo/yinyong.png">
@@ -55,7 +55,7 @@
             </div>
           </div>
         </div>
-        <div class="fun_item">
+        <div class="fun_item" @click="gotoBigScreen">
           <div class="fun_content">
             <div class="fun_icon">
               <img src="../../assets/icontwo/tongji.png">
@@ -77,8 +77,106 @@
         </div>
       </div>
     </div>
-    <div style="width: 100%;height: 200%">
-
+<!--    <div style="width: 100%;height: 200%">-->
+    <div class="content">
+      <div class="content_left">
+        <div class="section_one">
+          <div class="personal_title">
+            <div class="head_portrait">
+              <img src="../../assets/touxiang.jpg">
+            </div>
+            <div class="personal_msg_one">哈哈哈</div>
+            <div class="personal_msg_two">2013040402080&nbsp;&nbsp;|</div>
+            <div class="personal_msg_three">中国科学院沈阳计算技术研究所</div>
+          </div>
+          <div class="personal_btn">
+            <img src="../../assets/banshi.png">
+            <span>我要办事</span>
+          </div>
+          <div class="personal_select">
+            <div class="personal_select_title">
+              <span>个人信息</span>
+            </div>
+            <div class="personal_select_title">
+              <span>通知消息</span>
+            </div>
+            <div class="personal_select_title">
+              <span>下载中心</span>
+            </div>
+            <div class="personal_select_title">
+              <span>我的预约</span>
+            </div>
+            <div class="personal_select_title">
+              <span>电子签章</span>
+            </div>
+            <div class="personal_select_title">
+              <span>委托审批</span>
+            </div>
+          </div>
+        </div>
+        <div class="section_two">
+          <div class="section_two_title">
+            <span>流程干预</span>
+            <span class="more_btn">更多&nbsp;></span>
+          </div>
+          <div class="section_two_content"></div>
+          <div class="section_two_footer">...</div>
+        </div>
+      </div>
+      <div class="content_right">
+        <div class="section_three">
+          <div class="section_three_title">
+            <span>今日信息</span>
+          </div>
+          <div class="section_three_content">
+            <div class="left_item">
+              <img class="left_logo" src="../../assets/shenqing.png">
+              <div class="left_line"></div>
+              <div class="left_msg_one">0</div>
+              <div class="left_msg_two">/0</div>
+              <span class="left_explain" style="text-overflow: ellipsis;overflow: hidden">进行中/已完结</span>
+            </div>
+            <div class="left_item">
+              <img class="left_logo" src="../../assets/daiban.png">
+              <div class="left_line"></div>
+              <div class="left_msg_one">0</div>
+              <div class="left_msg_two">/0</div>
+              <span class="left_explain" style="text-overflow: ellipsis;overflow: hidden">待处理/已处理</span>
+            </div>
+            <div class="left_item">
+              <img class="left_logo" src="../../assets/zhihui.png">
+              <div class="left_line"></div>
+              <div class="left_msg_one">0</div>
+              <div class="left_msg_two">/0</div>
+              <span class="left_explain" style="text-overflow: ellipsis;overflow: hidden">&nbsp;&nbsp;未读/已读</span>
+            </div>
+          </div>
+          <div class="section_three_footer">...</div>
+        </div>
+        <div class="section_four">
+          <div class="section_four_title">
+            <span>我的待办</span>
+<!--            <div class="btn_one" @click="bntClick_one">-->
+            <el-button class="btn_one" @click="bntClick_one">待处理&nbsp;(0)</el-button>
+            <el-button class="btn_two" @click="bntClick_two">已处理&nbsp;(0)</el-button>
+<!--              <span>待处理&nbsp;(0)</span>-->
+<!--            </div>-->
+<!--            <div class="btn_two" @click="bntClick_two">-->
+<!--              <span>已处理&nbsp;(0)</span>-->
+<!--            </div>-->
+            <span class="more_btn">全部&nbsp;></span>
+          </div>
+          <div class="section_four_content">
+            <div class="undone" v-if="undoneVisible">
+              <span>暂无待处理任务</span>
+            </div>
+            <div class="done" v-else >
+              <span>暂无已处理任务</span>
+            </div>
+          </div>
+          <div class="section_four_footer">...</div>
+        </div>
+      </div>
     </div>
     <el-dialog
       title="用户登录"
@@ -120,16 +218,16 @@
         <!--    <el-button type="primary" @click="dialogVisible = false">确 定</el-button>-->
   </span>
     </el-dialog>
-<!--    <div class="copyright">-->
-<!--      <span>版权所有© Copyright 2020-2021 中科智禾</span>-->
-<!--    </div>-->
+    <div class="copyright">
+      <span>版权所有© Copyright 2020-2021 中科智禾</span>
+    </div>
   </div>
 </template>
 
 <script>
 import validCode from '@/components/myComponents/validCode'
 export default {
-  name: 'officeIndex',
+  name: 'personalCenter',
   components: {
     validCode
   },
@@ -142,7 +240,9 @@ export default {
       // 随机抽取四位数
       identifyCodes: '1234567890abcdef',
       identifyCode: '',
-      checked: false
+      checked: false,
+      undoneVisible: true,
+      doneVisible: false
     }
   },
   mounted () {
@@ -191,6 +291,15 @@ export default {
     goHome: function () {
       this.$router.push('/')
     },
+    gotoAppPage: function () {
+      this.$router.push('/applicationPage')
+    },
+    gotoOffice: function () {
+      this.$router.push('/officeHall')
+    },
+    gotoPersonalCenter: function () {
+      this.$router.push('/personalCenter')
+    },
     gotoKebiao: function () {
       // if (this.loginFlag) {
       //   this.$message({
@@ -200,6 +309,15 @@ export default {
       // } else {
       // }
       this.$router.push('/scheduleManagement')
+    },
+    gotoBigScreen: function () {
+      window.open('https://zhongkeruitong.top/zgbigscreen-show3/#/dashboard')
+    },
+    bntClick_one () {
+      this.undoneVisible = true
+    },
+    bntClick_two () {
+      this.undoneVisible = false
     }
   }
 }
@@ -277,6 +395,334 @@ export default {
 }
 .fun_item:hover {
   background-color: #0b71c6;
+}
+.content {
+  width: 90%;
+  height: 110%;
+  margin-top: 8.5%;
+  margin-left: 5%;
+  /*background-color: blue;*/
+}
+.content_left {
+  float: left;
+  width: 25%;
+  height: 100%;
+  /*background-color: yellow;*/
+}
+.content_right {
+  float: left;
+  width: 74%;
+  height: 100%;
+  margin-left: 1%;
+  /*background-color: blue;*/
+}
+.section_one {
+  width: 100%;
+  height: 50%;
+  /*border: 1px solid #4f4c4c;*/
+  border-radius: 0 0 5px 5px;
+  background-color: white;
+}
+.section_two {
+  position: relative;
+  width: 100%;
+  height: 48%;
+  margin-top: 5%;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+.section_two_title {
+  position: relative;
+  width: 100%;
+  height: 20%;
+  border-bottom: 1px solid #e0dada;
+  /*text-align: center;*/
+}
+.section_two_title .more_btn {
+  font-size: 14px;
+  margin-left: 75%;
+  margin-top: 2%;
+  color: #888888;
+}
+.section_two_title span {
+  position: absolute;
+  font-size: 25px;
+  left: 10%;
+  top: 30%;
+}
+.section_two_content {
+  width: 100%;
+  height: 70%;
+  /*background-color: yellow;*/
+  border-bottom: 1px solid #e0dada;
+  background: url("../../assets/bc1.png") no-repeat center;
+}
+.section_two_footer {
+  position: absolute;
+  top: 90%;
+  left: 90%;
+  font-size: 20px;
+  color: #888;
+}
+.section_three {
+  position: relative;
+  width: 100%;
+  height: 30%;
+  border-radius: 5px;
+  background-color: white;
+}
+.section_three_title {
+  position: relative;
+  width: 100%;
+  height: 30%;
+  /*border-bottom: 1px solid #888888;*/
+  /*text-align: center;*/
+}
+.section_three_title span {
+  position: absolute;
+  font-size: 25px;
+  left: 5%;
+  top: 30%;
+}
+.section_three_content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 55%;
+  border-bottom: 1px solid #e0dada;
+  /*background-color: yellow;*/
+}
+.left_item {
+  width: 30%;
+  height: 80%;
+  /*background-color: #5e80e4;*/
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1% auto;
+  cursor: pointer;
+  position: relative;
+  box-shadow:0px 0px 5px #d2d4d5;
+}
+.left_logo {
+  width: 25%;
+  height: 65%;
+  /*background-color: #bf5151;*/
+  position: absolute;
+  top:15%;
+  left:10%
+}
+.left_line {
+  position: absolute;
+  left: 45%;
+  top: 25%;
+  height: 45%;
+  border-right: 1px solid #b1adad;
+}
+.left_msg_one {
+  position: absolute;
+  font-size: 35px;
+  font-weight: bold;
+  color: #154293;
+  left: 65%;
+  top: 15%;
+}
+.left_msg_two {
+  position: absolute;
+  font-size: 15px;
+  font-weight: bold;
+  left: 73%;
+  top: 35%;
+}
+.left_explain {
+  width: 50%;
+  /*background-color: white;*/
+  position: absolute;
+  top:55%;
+  left:60%;
+  color: #888888;
+  font-size: 0.8rem;
+}
+.section_three_footer {
+  position: absolute;
+  top: 85%;
+  left: 96%;
+  font-size: 20px;
+  color: #888;
+}
+.section_four {
+  position: relative;
+  width: 100%;
+  height: 69%;
+  margin-top: 1%;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+.section_four_title {
+  position: relative;
+  width: 100%;
+  height: 15%;
+  border-bottom: 1px solid #e0dada;
+}
+.section_four_title span {
+  position: absolute;
+  font-size: 25px;
+  left: 5%;
+  top: 30%;
+}
+.section_four_title .more_btn {
+  font-size: 14px;
+  margin-left: 89%;
+  margin-top: 1%;
+  color: #888888;
+}
+.btn_one {
+  float: left;
+  margin-left: 30%;
+  margin-top: 2%;
+}
+.btn_two {
+  float: left;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+/*.btn_one span {*/
+/*  position: absolute;*/
+/*  font-size: 15px;*/
+/*  color: #888;*/
+/*  top: 5px;*/
+/*  left: 25px;*/
+/*}*/
+.btn_one:hover {
+  background-color: #cadcec;
+  color: #08529b;
+}
+/*.btn_one span:hover {*/
+/*  color: #08529b;*/
+/*}*/
+.section_four_content {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 78%;
+  border-bottom: 1px solid #e0dada;
+  /*background-color: yellow;*/
+}
+.undone {
+  width: 100%;
+  height: 100%;
+  background: url("http://zhongkeruitong.top/zg_smartCampus/bc2.png") no-repeat center;
+}
+.undone span {
+  position: absolute;
+  color: #888888;
+  font-size: 13px;
+  left: 46%;
+  top: 75%;
+}
+.done {
+  width: 100%;
+  height: 100%;
+  background: url("http://zhongkeruitong.top/zg_smartCampus/bc2.png") no-repeat center;
+}
+.done span {
+  position: absolute;
+  color: #888888;
+  font-size: 13px;
+  left: 46%;
+  top: 75%;
+}
+.section_four_footer {
+  position: absolute;
+  top: 93%;
+  left: 96%;
+  font-size: 20px;
+  color: #888;
+}
+.personal_title {
+  position: relative;
+  width: 100%;
+  height: 30%;
+  background-color: #154293;
+}
+.head_portrait {
+  position: absolute;
+  width: 16%;
+  height: 50%;
+  left: 10%;
+  top: 24%;
+  border-radius: 40px;
+  background-color: #d9d9cd;
+  overflow: hidden;
+}
+.head_portrait img {
+  width: 100%;
+  height: 100%;
+}
+.personal_msg_one {
+  position: absolute;
+  left: 30%;
+  top: 30%;
+  color: white;
+}
+.personal_msg_two {
+  position: absolute;
+  left: 30%;
+  top: 50%;
+  font-size: 12px;
+  color: white;
+}
+.personal_msg_three {
+  position: absolute;
+  left: 30%;
+  top: 62%;
+  font-size: 12px;
+  color: white;
+}
+.personal_btn {
+  position: relative;
+  width: 80%;
+  height: 10%;
+  margin: 5% 10%;
+  border-radius: 30px;
+  /*text-align: center;*/
+  background-color: #154293;
+}
+.personal_btn img {
+  width: 5%;
+  height: 35%;
+  margin-top: 5%;
+  margin-left: 35%;
+}
+.personal_btn span {
+  position: absolute;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  left: 41%;
+  top: 10px;
+}
+.personal_select {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  /*background-color: #5daf34;*/
+}
+.personal_select_title {
+  width: 35%;
+  height: 18%;
+  display: flex;
+  margin-left: 10%;
+  margin-top: 2%;
+  border: 1px solid grey;
+  border-radius: 8px 20px 8px 20px;
+  align-items: center;
+  /*text-align: center;*/
+  font-size: 13px;
+}
+.personal_select_title span {
+  padding: 28%;
 }
 .icon_con {
   float: left;
@@ -519,6 +965,7 @@ export default {
   color: #707476;
   /*position: absolute;*/
   /*bottom: -29%;*/
+  margin-top: 1%;
   font-size: 0.8rem;
 }
 </style>

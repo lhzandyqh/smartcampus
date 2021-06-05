@@ -12,16 +12,19 @@ import officeHall from '@/components/officeHall/index'
 import personalCenter from '@/components/personalCenter/index'
 import peopleHome from '@/components/officeHall/peopleHome'
 import serveCenter from '@/components/officeHall/serveCenter'
+// import personalCenter from '@/components/personalCenter/personalCenter'
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
+    // 首页
     {
       path: '/',
       name: 'newHomepage',
       component: newHomepage
     },
+    // 应用中心
     {
       path: '/applicationPage',
       name: 'applicationPage',
@@ -34,6 +37,7 @@ export default new Router({
       //   }
       // ]
     },
+    // 办事大厅
     {
       path: '/officeHall',
       name: 'officeHall',
@@ -49,16 +53,25 @@ export default new Router({
           name: 'serveCenter',
           component: serveCenter
         },
+        // 这里是不是多余的
         {
           path: '',
           component: peopleHome
         }
       ]
     },
+    // 个人信息
     {
       path: '/personalCenter',
       name: 'personalCenter',
-      component: personalCenter
+      component: personalCenter,
+      children: [
+        // 这里是不是多余的
+        {
+          path: '',
+          component: peopleHome
+        }
+      ]
     },
     // 课表管理
     {
