@@ -131,11 +131,11 @@ export default {
 .search_con {
   width: 100%;
   height: 35%;
-  background-color: skyblue;
+  /*background-color: skyblue;*/
   position: relative;
-  background: url("../../assets/bangong.jpg") no-repeat;
+  background: url("http://zhongkeruitong.top/zg_smartCampus/bangong.jpg") no-repeat center;
   background-size: cover;
-  background-position: center 0;
+  /*background-position: center 0;*/
 }
 .sea_fun_con {
   width: 60%;

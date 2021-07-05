@@ -541,7 +541,7 @@
         </div>
       </div>
     </div>
-    <div class="application_con top_control">
+    <div class="application_con1 top_control">
       <div class="application_title">
         <div class="first_tit">
           <span>资产系统</span>
@@ -553,18 +553,18 @@
       <div class="app_all_con">
         <div class="new_icon_con">
           <div class="fun_icon_two">
-            <img src="../assets/assets_icon/kucun.png">
+            <img src="../assets/assets_icon/yonghu.png">
           </div>
           <div class="fun_title_two">
-            <span>库存管理</span>
+            <span>用户信息</span>
           </div>
         </div>
         <div class="new_icon_con">
           <div class="fun_icon_two">
-            <img src="../assets/assets_icon/kufang.png">
+            <img src="../assets/assets_icon/kucun.png">
           </div>
           <div class="fun_title_two">
-            <span>库房管理</span>
+            <span>库存管理</span>
           </div>
         </div>
         <div class="new_icon_con">
@@ -577,6 +577,46 @@
         </div>
         <div class="new_icon_con">
           <div class="fun_icon_two">
+            <img src="../assets/assets_icon/shoufa.png">
+          </div>
+          <div class="fun_title_two">
+            <span>收发存统计</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/assets_icon/gouzhuwu.png">
+          </div>
+          <div class="fun_title_two">
+            <span>构筑物管理</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/assets_icon/yusuanshenqing.png">
+          </div>
+          <div class="fun_title_two">
+            <span>预算申请</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/assets_icon/yusuan.png">
+          </div>
+          <div class="fun_title_two">
+            <span>预算管理</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/assets_icon/jieyong.png">
+          </div>
+          <div class="fun_title_two">
+            <span>借用资产</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
             <img src="../assets/assets_icon/zichan.png">
           </div>
           <div class="fun_title_two">
@@ -585,10 +625,42 @@
         </div>
         <div class="new_icon_con">
           <div class="fun_icon_two">
-            <img src="../assets/assets_icon/shoufa.png">
+            <img src="../assets/assets_icon/tuihuan.png">
           </div>
           <div class="fun_title_two">
-            <span>首发存库</span>
+            <span>退换申请</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/assets_icon/tuihuanguanli.png">
+          </div>
+          <div class="fun_title_two">
+            <span>退换管理</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/assets_icon/zichanpandian.png">
+          </div>
+          <div class="fun_title_two">
+            <span>资产盘点</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/assets_icon/baofei.png">
+          </div>
+          <div class="fun_title_two">
+            <span>报废查询</span>
+          </div>
+        </div>
+        <div class="new_icon_con">
+          <div class="fun_icon_two">
+            <img src="../assets/assets_icon/liuzhuan.png">
+          </div>
+          <div class="fun_title_two">
+            <span>流转管理</span>
           </div>
         </div>
         <div class="new_icon_con">
@@ -609,82 +681,10 @@
         </div>
         <div class="new_icon_con">
           <div class="fun_icon_two">
-            <img src="../assets/assets_icon/yusuan.png">
+            <img src="../assets/assets_icon/kufang.png">
           </div>
           <div class="fun_title_two">
-            <span>预算管理</span>
-          </div>
-        </div>
-        <div class="new_icon_con">
-          <div class="fun_icon_two">
-            <img src="../assets/assets_icon/baofei.png">
-          </div>
-          <div class="fun_title_two">
-            <span>报废查询</span>
-          </div>
-        </div>
-        <div class="new_icon_con">
-          <div class="fun_icon_two">
-            <img src="../assets/assets_icon/gouzhuwu.png">
-          </div>
-          <div class="fun_title_two">
-            <span>构筑物管理</span>
-          </div>
-        </div>
-        <div class="new_icon_con">
-          <div class="fun_icon_two">
-            <img src="../assets/assets_icon/zichanpandian.png">
-          </div>
-          <div class="fun_title_two">
-            <span>资产盘点</span>
-          </div>
-        </div>
-        <div class="new_icon_con">
-          <div class="fun_icon_two">
-            <img src="../assets/assets_icon/yonghu.png">
-          </div>
-          <div class="fun_title_two">
-            <span>用户信息</span>
-          </div>
-        </div>
-        <div class="new_icon_con">
-          <div class="fun_icon_two">
-            <img src="../assets/assets_icon/jieyong.png">
-          </div>
-          <div class="fun_title_two">
-            <span>借用资产</span>
-          </div>
-        </div>
-        <div class="new_icon_con">
-          <div class="fun_icon_two">
-            <img src="../assets/assets_icon/tuihuan.png">
-          </div>
-          <div class="fun_title_two">
-            <span>退换申请</span>
-          </div>
-        </div>
-        <div class="new_icon_con">
-          <div class="fun_icon_two">
-            <img src="../assets/assets_icon/yusuanshenqing.png">
-          </div>
-          <div class="fun_title_two">
-            <span>预算申请</span>
-          </div>
-        </div>
-        <div class="new_icon_con">
-          <div class="fun_icon_two">
-            <img src="../assets/assets_icon/liuzhuan.png">
-          </div>
-          <div class="fun_title_two">
-            <span>流转管理</span>
-          </div>
-        </div>
-        <div class="new_icon_con">
-          <div class="fun_icon_two">
-            <img src="../assets/assets_icon/tuihuanguanli.png">
-          </div>
-          <div class="fun_title_two">
-            <span>退换管理</span>
+            <span>库房管理</span>
           </div>
         </div>
         <div class="new_icon_con">
@@ -994,7 +994,14 @@ export default {
   /*position: absolute;*/
   margin-left: 5%;
   position: relative;
-}
+}.application_con1 {
+   width: 90%;
+   height: 40%;
+   /*background-color: pink;*/
+   /*position: absolute;*/
+   margin-left: 5%;
+   position: relative;
+ }
 .application_title {
   height: 50px;
   width: 20%;
@@ -1022,6 +1029,16 @@ export default {
   flex-wrap: wrap;
   overflow: auto;
 }
+.app_all_con1 {
+   margin-top: 5px;
+   width: 100%;
+   height: 80%;
+   background-color: white;
+   border-radius: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   overflow: auto;
+ }
 .new_icon_con {
   width: 18%;
   height: 25%;
