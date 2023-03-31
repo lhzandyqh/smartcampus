@@ -1058,7 +1058,7 @@ export default {
   width: 30%;
   height: 100%;
   /*background-color: #2767c5;*/
-  align-items: center;
+  /*align-items: center;*/
   text-align: center;
 }
 .fun_icon_two img {
